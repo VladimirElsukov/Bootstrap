@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ads Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" alt="Logo" width="30" height="30" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
+                <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
+              </svg> Доска объявлений
+            </a>
+          </div>
+          <div class="d-flex align-items-center">
+            
+            <button type="button" class="btn btn-primary me-3"> <img src="icons/plyus.png"/>  Добавить объявление</button>
+            <img src="https://sun1-90.userapi.com/s/v1/ig2/571vE1rLisHpaUAtRVDjOBqz8TvCq44MNbl7RzxrrbAsLZZE6LKPwBC1zbdMSf3ID_g3bwXsVF0hWBNgwJEavDJb.jpg?size=200x200&quality=95&crop=108,130,403,403&ava=1" width="50" class="rounded-circle ms-3 me-3" />
+            <a href="https://github.com/VladimirElsukov" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Мой профиль</a>
+          </div>
+        </div> 
+      </nav>
+
+      <nav class="navbar">
+        <div class="container-fluid2">
+
+          <form class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
+              <path fill="#616161" d="M34.6 28.1H38.6V45.1H34.6z" transform="rotate(-45.001 36.586 36.587)"></path>
+              <path fill="#616161" d="M20 4A16 16 0 1 0 20 36A16 16 0 1 0 20 4Z"></path>
+              <path fill="#37474F" d="M36.2 32.1H40.2V44.400000000000006H36.2z" transform="rotate(-45.001 38.24 38.24)"></path>
+              <path fill="#64B5F6" d="M20 7A13 13 0 1 0 20 33A13 13 0 1 0 20 7Z"></path>
+              <path fill="#BBDEFB" d="M26.9,14.2c-1.7-2-4.2-3.2-6.9-3.2s-5.2,1.2-6.9,3.2c-0.4,0.4-0.3,1.1,0.1,1.4c0.4,0.4,1.1,0.3,1.4-0.1C16,13.9,17.9,13,20,13s4,0.9,5.4,2.5c0.2,0.2,0.5,0.4,0.8,0.4c0.2,0,0.5-0.1,0.6-0.2C27.2,15.3,27.2,14.6,26.9,14.2z"></path>
+            </svg>
+            <input class="form-control me-2" style="width: 600px;" type="search" placeholder="Поиск" aria-label="Поиск" />
+            <!-- icon666.com - MILLIONS vector ICONS FREE -->
+            <svg viewBox="-30 0 512 512" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60">
+              <path d="m451.539062 394.5c0 33.429688-24.917968 63.960938-70.167968 85.96875-41.8125 20.332031-97.070313 31.53125-155.601563 31.53125s-113.789062-11.199219-155.597656-31.53125c-45.25-22.007812-70.171875-52.539062-70.171875-85.96875s24.921875-63.960938 70.171875-85.96875c41.808594-20.332031 97.066406-31.53125 155.597656-31.53125s113.789063 11.199219 155.601563 31.53125c45.25 22.007812 70.167968 52.539062 70.167968 85.96875zm0 0" fill="#9afbff" />
+              <path d="m451.539062 394.5c0 33.429688-24.917968 63.960938-70.167968 85.96875-41.8125 20.332031-97.070313 31.53125-155.601563 31.53125v-235c58.53125 0 113.789063 11.199219 155.601563 31.53125 45.25 22.007812 70.167968 52.539062 70.167968 85.96875zm0 0" fill="#55f9ff" />
+              <path d="m389.941406 394.5c0 13.671875-9.429687 32.828125-54.320312 46.519531-29.550782 9.019531-68.5625 13.980469-109.851563 13.980469-41.289062 0-80.300781-4.960938-109.847656-13.980469-44.890625-13.691406-54.320313-32.847656-54.320313-46.519531s9.429688-32.828125 54.320313-46.519531c29.546875-9.019531 68.558594-13.980469 109.847656-13.980469 41.289063 0 80.300781 4.960938 109.851563 13.980469 44.890625 13.691406 54.320312 32.847656 54.320312 46.519531zm0 0" fill="#00da78" />
+              <path d="m389.941406 394.5c0 13.671875-9.429687 32.828125-54.320312 46.519531-29.550782 9.019531-68.5625 13.980469-109.851563 13.980469v-121c41.289063 0 80.300781 4.960938 109.851563 13.980469 44.890625 13.691406 54.320312 32.847656 54.320312 46.519531zm0 0" fill="#00b77a" />
+              <path d="m372.480469 146.710938c0 44.351562-22.585938 78.824218-47.75 113.136718l-59.390625 81.007813c-3.21875 4.390625-6.480469 8.90625-9.632813 13.273437-6.378906 8.835938-12.976562 17.972656-19.777343 26.828125l-10.160157 13.234375-.238281.308594-98.722656-134.652344c-25.164063-34.3125-47.75-68.792968-47.75-113.136718 0-80.898438 65.8125-146.710938 146.695312-146.710938h.613282c80.617187.324219 146.113281 66.015625 146.113281 146.710938zm0 0" fill="#ff623f" />
+              <path d="m302.796875 146.710938c0 42.46875-34.558594 77.019531-77.027344 77.019531s-77.027343-34.550781-77.027343-77.019531c0-42.476563 34.558593-77.027344 77.027343-77.027344s77.027344 34.550781 77.027344 77.027344zm0 0" fill="#fff" />
+              <path d="m372.480469 146.710938c0 44.351562-22.585938 78.824218-47.75 113.136718l-59.390625 81.007813c-3.21875 4.390625-6.480469 8.90625-9.632813 13.273437-6.378906 8.835938-12.976562 17.972656-19.777343 26.828125l-10.160157 13.234375v-394.191406h.597657c80.617187.324219 146.113281 66.015625 146.113281 146.710938zm0 0" fill="#e30020" />
+              <path d="m225.769531 223.730469v-154.046875c42.46875 0 77.027344 34.550781 77.027344 77.027344 0 42.46875-34.558594 77.019531-77.027344 77.019531zm0 0" fill="#d6d6d8" />
+            </svg>
+            <input class="form-control me-2" style="width: 600px;" type="search" placeholder="Местоположение" aria-label="Местоположение" />
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <h1>Доска объявлений, товаров и услуг</h1>
+
+    <div class="container p-4 border-bottom">
+      <div class="row">
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/detskie_tovary.png" alt="Детские товары" />
+            Детские товары
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/rabota.png" alt="" />
+            Работа
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/uslugi.png" alt="Бизнес услуги" />
+            Бизнес услуги
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/house.png" alt="Недвижимость" />
+            Недвижимость
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/uhod.png" alt="Животные" />
+            Животные
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/moda.png" alt="Мода и стиль" />
+            Мода и стиль
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/auto.png" alt="Транспорт" />
+            Транспорт
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/sad.png" alt="Сад и огород" />
+            Сад и огород
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/otdyh.png" alt="Хобби, отдых и спорт" />
+            Хобби, отдых и спорт
+          </a>
+        </div>
+      </div>
+
+      <div class="row row-cols-3">
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/zapchasti.png" alt="Запчасти" />
+            Запчасти
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/telefon.png" alt="Телефоны, планшеты, ПК" />
+            Телефоны, планшеты, ПК
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/podarki.png" alt="Подарки" />
+            Подарки
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="icon-link" href="#">
+            <img src="icons/obmen.png" alt="Обмен" />
+            Обмен
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"></section>
+
+      <!-- Section: Links -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" alt="Logo" width="30" height="30" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
+                  <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
+                </svg> Доска объявлений
+              </a>
+            </div>
+
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Дополнительный сервис</h6>
+              <p>
+                <a href="#!" class="text-reset">Мобильное приложение</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Платные услуги</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Реклама на сайте</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Помощь и обратная связь</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Информация</h6>
+              <p>
+                <a href="#!" class="text-reset">Наш блог</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Как продавать и покупать</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Условия использования</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Партнерство</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Безопасная регистрация</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Контакты</h6>
+              <p>
+                <i class="fas fa-home me-3"></i> г.Ярославль ул.Свободы д.1
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-3"></i> +7 (000)-000-00-00
+              </p>
+              <p>
+                <i class="fas fa-print me-3"></i> +7 (000)-000-00-00
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024:
+        <a class="text-reset fw-bold" href="#">Доска объявлений</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.container-fluid {
+    background-color: rgb(213, 233, 236);
+    width: 90%;
+    max-width: 1600px;
+    /* Дополнительное ограничение максимальной ширины */
+    margin: 0 auto;
+    /* Центрирование контейнера на странице */
+            
+     
+}
+
+.container-fluid2 {
+    background-color: rgb(213, 233, 236);
+    width: 90%;
+    max-width: 1400px;
+    /* Дополнительное ограничение максимальной ширины */
+    margin: 0 auto;
+    /* Центрирование контейнера на странице */
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+
+    width: 90%;
+        max-width: 1200px;
+        /* Дополнительное ограничение максимальной ширины */
+        margin: 0 auto;
+        /* Центрирование контейнера на странице */
+}
+
+.btn.btn-primary {
+    background-color: rgb(149, 201, 201);
+}
